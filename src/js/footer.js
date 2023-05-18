@@ -20,7 +20,7 @@ template.innerHTML = `
 
       <div class="socialProps">
         <a class="link4" href="https://www.youtube.com/@LawtonMeyer" title="YouTube &#64;LawtonMeyer">
-            <img class="socialHover" src="" alt="www.youtube.com/@LawtonMeyer" >
+            <img class="socialHover" src="src/icons/YouTube.png" alt="www.youtube.com/@LawtonMeyer" >
         </a>
       </div>
 
@@ -39,24 +39,21 @@ template.innerHTML = `
 
   <hr class="rounded">
   <br>
-  <br>
-  <div class="h4">
+  <!--<div class="h4">
     <img alt="Lawton Meyer" src="src/img/Logo.png" width="250">
-  </div>
+  </div>-->
 
   <p id="p01">
     &#169;&nbsp;2014 &mdash;
     `+curYear+`
     &nbsp;Lawton Meyer | Cinematography &ndash; Videography &ndash; Filmmaking
     <br>
-    <a class="link4" href="mailto:lawtonmeyer@gmail.com" title="Email &#64; lawtonmeyer@gmail.com">lawtonmeyer@gmail.com</a> 
+    <a class="link1" href="mailto:lawtonmeyer@gmail.com" title="Email &#64; lawtonmeyer@gmail.com">lawtonmeyer@gmail.com</a> 
     | (845)&nbsp;249&ndash;6161
     <br>
-    <a class="link3" href="https://www.schuylermeyer.com/" target="_self" title="SchuyTyr">Powered by SchuyTyr</a>
+    <a class="link1" href="https://www.schuylermeyer.com/" target="_self" title="SchuyTyr">Powered by SchuyTyr</a>
     &nbsp;|&nbsp;
-    <a class="link3" href="sitemap.html" target="_self" title="Sitemap"> Site Map </a>
-    &nbsp;|&nbsp;
-    <a class="link3" href="readmeText.html" target="_self" title="Readme"> <u>README</u> </a>
+    <a class="link1" href="sitemap.html" target="_self" title="Sitemap"> Site Map </a>
   </p>
 `;
 

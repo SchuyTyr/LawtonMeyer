@@ -3,48 +3,35 @@
 let mainHeader = document.getElementById('header');
 
 mainHeader.innerHTML = `
-    <h1 class="headerTxt" title="Lawton Meyer">
-      <a href="index.html">
-        <!--<img alt="Schuyler Meyer" class="imgLogo" src="src/img/SMSignLogo2021.png">-->
-        <span>Lawton Meyer</span>
-      </a>
-    </h1>
-    <!--<p class="topDesc"><u>&nbsp;&nbsp;Photography &#8280; Design &#8280; Game Developer &#8280; VR &#8280; Software Engineering &#8280; Animation&nbsp;&nbsp;</u></p>-->
-    <hr class="rounded">
+        <h1 class="" title="Lawton Meyer">
+            <a href="index.html">
+                <!--<img alt="Schuyler Meyer" class="imgLogo" src="src/img/SMSignLogo2021.png">-->
+                <span>Lawton Meyer</span>
+            </a>
+        </h1>
+        <p class="headerText"><span class="headerBorder">&nbsp;&nbsp;Cinematographer | Filmmaker&nbsp;&nbsp;</span></p>
+        <hr class="rounded">
 
-    <nav>
-      <a href="aboutSM.html" class="aButton">
-        <button class="pageButtonColorSkew" title="About the Schuy">
-          <div class="pageButtonTxt">&nbsp;About&nbsp;</div>
-        </button>
-      </a>
-      <a href="contact.html" class="aButton">
-        <button class="pageButtonColorSkew" title="Coming Soon!">
-          <div class="pageButtonTxt">&nbsp;Contact&nbsp;</div>
-        </button>
-      </a>
-      <a href="https://schuybox.wordpress.com/" class="aButton" target="_blank">
-        <button class="pageButtonColorSkew" title="To the SchuyBox!">
-          <div class="pageButtonTxt">&nbsp;Blog&nbsp;</div>
-        </button>
-      </a>
+        <nav>
 
-        <a href="photoshoot.html" class="aButton">
-          <button class="pageButtonColorSkew" title="Book a Photoshoot">
-            <div class="pageButtonTxt">&nbsp;Book a Photoshoot&nbsp;</div>
-          </button>
-        </a>
-        <a href="itconsulting.html" class="aButton">
-          <button class="pageButtonColorSkew" title="IT Services">
-            <div class="pageButtonTxt">&nbsp;IT Services&nbsp;</div>
-          </button>
-        </a>
-        <a href="https://ko-fi.com/schuylermeyer" class="aButton" target="_blank">
-          <button class="pageButtonColorSkew" title="Please?">
-            <div class="pageButtonTxt">&nbsp;Buy me a Coffee&nbsp;</div>
-          </button>
-        </a>
-    </nav>
+            <a href="index.html" class="">&nbsp;Home&nbsp;</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    &nbsp;Work&nbsp;
+                </button>
+                <div class="dropdown-content">
+                    <a href="music.html">Music&nbsp;Video</a>
+                    <a href="narrative.html">Narrative</a>
+                    <a href="nature.html">Nature</a>
+                    <a href="commdoc.html">Commercial | Documentary</a>
+                </div>
+            </div>
+            <a href="gallery.html" class="">&nbsp;Gallery&nbsp;</a>
+            <a href="gearlist.html" class="">&nbsp;Gear&nbsp;List&nbsp;</a>
+            <a href="about.html" class="">&nbsp;About&nbsp;</a>
+            <a href="contact.html" class="">&nbsp;Contact&nbsp;</a>
 
+        </nav>
 
+        <hr class="rounded">
 `;
