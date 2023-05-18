@@ -33,5 +33,5 @@ function carousel() {
 }
 
 function startTimer() {
-  setInterval(carousel, 1000);
+  setInterval(carousel, 6000);
 }
