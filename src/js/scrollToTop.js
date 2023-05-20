@@ -1,7 +1,7 @@
 /*-- scrollToTop.js // Schuyler Meyer // 2021 --*/
 
 //Get the button
-var mybutton = document.getElementById("myBtn");
+var mybutton = document.getElementById("toTopButton");
 //var logo = document.getElementById("logo");
 
 var topBtn = false;

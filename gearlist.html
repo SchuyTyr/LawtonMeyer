@@ -40,12 +40,333 @@
     <script src="src/js/header.js" type="text/javascript" defer></script>
     <script src="src/js/footer.js" type="text/javascript" defer></script>
 </head>
-<body onload = "startTimer()">
-    <!--<header id="header"></header>-->
+<body>
+    <header id="header"></header>
 
-    <main>
+    <main id="mainCont">
 
-        <h1>Coming Soon.</h1>
+        <button id="toTopButton" onclick="topFunction()" title="Go to the top"></button>
+
+        <div class="gearListTitle">Gear List</div>
+
+        <br>
+
+        <div class="gearListContainer">
+            <div class="gearListContainerInner">
+
+                <u class="gearListHeaders">Cameras</u>
+                <ul class="gearList">
+                    <li class="">
+                        Red Raven 4.5k (16 bit)
+                    </li>
+                    <li class="">
+                        Canon EOS C200b (4K RAW 12bit)
+                    </li>
+                    <li class="">
+                        Panasonic GH5 (4K 10bit)
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Lenses</u>
+                <ul class="gearList">
+                    <li class="">
+                        Tokina Cinema Vista Primes
+                        <ul>
+                            <li>
+                                25mm – T 1.5
+                            </li>
+                            <li>
+                                40mm – T 1.5
+                            </li>
+                            <li>
+                                85mm – T 1.5
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        Canon L 16-35 MKIII – F 2.8
+                    </li>
+                    <li class="">
+                        Rokinon 100mm macro – T 3.1
+                    </li>
+                    <li class="">
+                        Iron Glass Helios
+                        <ul>
+                            <li>58mm</li>
+                            <li>135mm</li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        Bright Tangerine 15mm lens support
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Filters</u>
+                <ul class="gearList">
+                    <li class="">
+                        Black Pro Mist 4x4
+                        <ul>
+                            <li>1/8</li>
+                            <li>1/4</li>
+                            <li>1/2</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        Warm Pro Mist 1
+                    </li>
+                    <li class="">
+                        Polarizer
+                    </li>
+                    <li class="">
+                        ND 4x4
+                        <ul>
+                            <li>1.2 (4 stops)</li>
+                            <li>0.6 (2 stops)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Power</u>
+                <ul class="gearList">
+                    <li class="">
+                        Core SWX HyperCore NEO 9 Mini 98Wh (x2)
+                    </li>
+                    <li class="">
+                        Watson Pro V-Mount Batteries 97Wh (x2)
+                    </li>
+                    <li class="">
+                        Canon BP-A30 (x2)
+                    </li>
+                    <li class="">
+                        GH5 Batteries (x2)
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Media</u>
+                <ul class="gearList">
+                    <li class="">
+                        256gb CFast (x3)
+                    </li>
+                    <li class="">
+                        Red Mini Mag 480gb (x1)
+                    </li>
+                    <li class="">
+                        SD
+                        <ul>
+                            <li>128gb (x2)</li>
+                            <li>64gb</li>
+                            <li>32gb</li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        480gb SSD (Atomos)
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Misc Camera</u>
+                <ul class="gearList">
+                    <li class="">
+                        Tilta Nucleus M Wireless Lens Control System
+                    </li>
+                    <li class="">
+                        SmallHD 502
+                    </li>
+                    <li class="">
+                        Atomos Shogun Inferno 7”
+                    </li>
+                    <li class="">
+                        Misfit Atom
+                    </li>
+                    <li class="">
+                        JTZ DP30 Matte Box (4x4)
+                    </li>
+                    <li class="">
+                        Lilliput 4k Field Monitor (15.6”)
+                    </li>
+                    <li class="">
+                        Bright Tangerine Titan Arm
+                    </li>
+                    <li class="">
+                        SDI
+                        <ul>
+                            <li>25’</li>
+                            <li>6’</li>
+                            <li>1’</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Support</u>
+                <ul class="gearList">
+                    <li class="">
+                        Sachtler FSB 10T 100mm FLUID HEAD (27lbs)
+                    </li>
+                    <li class="">
+                        E-Image Tripod (17lbs)
+                    </li>
+                    <li class="">
+                        Steadicam Aero 30 (21lbs)
+                    </li>
+                    <li class="">
+                        Zacuto Universal Baseplate + Small Rig Hand Grips
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Audio</u>
+                <ul class="gearList">
+                    <li class="">
+                        Sennheiser MKE 600 Shotgun Mic
+                    </li>
+                    <li class="">
+                        Sennheiser G4 Wireless omni lavalier mic
+                    </li>
+                    <li class="">
+                        Hollyland Lark 150 wireless lav (x2)
+                    </li>
+                    <li class="">
+                        Tascam DR40
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Lighting</u>
+                <ul class="gearList">
+                    <li class="">
+                        Nanlite Forza 500 (500w LED)
+                    </li>
+                    <li class="">
+                        Intellytech LiteCloth LC-120 1 x 3' Foldable LED Mat
+                    </li>
+                    <li class="">
+                        Aputure C300d MKII
+                    </li>
+                    <li class="">
+                        Aputure C300d (MKI)
+                    </li>
+                    <li class="">
+                        Quasar RGB 2’ (x2)
+                    </li>
+                    <li class="">
+                        Nanlite PavoTube II 6C
+                    </li>
+                    <li class="">
+                        Aputure Accent B7C RGBWW (Bulbs x 8)
+                    </li>
+                    <li class="">
+                        Aputure Light Storm LS 60d
+                    </li>
+                    <li class="">
+                        Genaray Torpedo 60w focusable LED (x2)
+                    </li>
+                    <li class="">
+                        Genaray Escort Bi-Color LED (10.3 x 7.2" Panel)
+                    </li>
+                    <li class="">
+                        Aputure AL-M9 Amaran
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Modifiers</u>
+                <ul class="gearList">
+                    <li class="">
+                        6'x6’ Unbleached Muslin
+                    </li>
+                    <li class="">
+                        6'x6’ Bleached Muslin
+                    </li>
+                    <li class="">
+                        Matthews 24"x36" Flag
+                    </li>
+                    <li class="">
+                        Matthews 18"x24" Flag
+                    </li>
+                    <li class="">
+                        Matthews 24"x36” Scrim (single)
+                    </li>
+                    <li class="">
+                        32"x48” Soft box w/grid
+                    </li>
+                    <li class="">
+                        Aputure Fresnel MKII
+                    </li>
+                    <li class="">
+                        Aputure Fresnel MKI
+                    </li>
+                    <li class="">
+                        Aputure Lantern Softbox
+                    </li>
+                    <li class="">
+                        42” 5-in-1 Round Reflector (collapsible)
+                    </li>
+                    <li class="">
+                        32"x40” bounce card
+                    </li>
+                    <li class="">
+                        12x12 Gels, CTB full set, CTO full set, Variety (red, green, purple, gold, etc.)
+                    </li>
+                    <li class="">
+                        CHAUVET 1DX Haze Machine
+                    </li>
+                    <li class="">
+                        CHAUVET 700 Fog Machine
+                    </li>
+                    <li class="">
+                        5'x7' Collapsable Green Screen
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Stands</u>
+                <ul class="gearList">
+                    <li class="">
+                        C-Stand 10’ (x2) (with arm)
+                    </li>
+                    <li class="">
+                        C-Stand 10.75’ (with arm)
+                    </li>
+                    <li class="">
+                        C- Stand 5.9’ (no arm)
+                    </li>
+                    <li class="">
+                        Air Cushion 10’
+                    </li>
+                    <li class="">
+                        Air Cushion 7.2’ (x2)
+                    </li>
+                    <li class="">
+                        Impact Boom Arm
+                    </li>
+                </ul>
+
+                <u class="gearListHeaders">Misc Grip</u>
+                <ul class="gearList">
+                    <li class="">
+                        Spring clamps 2” (x6)
+                    </li>
+                    <li class="">
+                        Mathellini Clamp 3”
+                    </li>
+                    <li class="">
+                        Safety Chains (x3)
+                    </li>
+                    <li class="">
+                        Sandbags (x2)
+                    </li>
+                    <li class="">
+                        Black Wrap
+                    </li>
+                    <li class="">
+                        Assorted gaff, paper, electrical tape
+                    </li>
+                    <li class="">
+                        Apple Box (x1)
+                    </li>
+                    <li class="">
+                        Grip Gloves
+                    </li>
+                </ul>
+
+            </div>
+        </div>
 
     </main>
 
@@ -55,7 +376,6 @@
     <script src="src/js/hideText.js"></script>
     <script src="src/js/scrollToTop.js"></script>
     <script src="src/js/fadeScroll.js"></script>
-    <script src="src/js/slideShow.js"></script>
 
 </body>
 </html>
