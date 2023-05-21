@@ -49,11 +49,10 @@ template.innerHTML = `
     &nbsp;Lawton Meyer | Cinematography &ndash; Videography &ndash; Filmmaking
     <br>
     <a class="link1" href="mailto:lawtonmeyer@gmail.com" title="Email &#64; lawtonmeyer@gmail.com">lawtonmeyer@gmail.com</a> 
-    | (845)&nbsp;249&ndash;6161
+    | <a class="link1" href="tel:8452496161" title="Phone &#64; (845) 249-6161">(845)&nbsp;249&ndash;6161</a>
     <br>
     <a class="link1" href="https://www.schuylermeyer.com/" target="_self" title="SchuyTyr">Powered by SchuyTyr</a>
-    &nbsp;|&nbsp;
-    <a class="link1" href="sitemap.html" target="_self" title="Sitemap"> Site Map </a>
+    &nbsp;
   </p>
 `;
 
