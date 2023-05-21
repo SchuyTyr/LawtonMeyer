@@ -13,25 +13,25 @@ template.innerHTML = `
   <div class="socialBar">
 
       <div class="socialProps">
-        <a class="link4" href="https://www.instagram.com/lawton_meyer/" title="Instagram &#64;lawton_meyer">
+        <a class="link4" href="https://www.instagram.com/lawton_meyer/" target="_blank" title="Instagram &#64;lawton_meyer">
             <img class="socialHover" src="src/icons/Instagram_3.png" alt="instagram.com/lawton_meyer">
         </a>
       </div>
 
       <div class="socialProps">
-        <a class="link4" href="https://www.youtube.com/@LawtonMeyer" title="YouTube &#64;LawtonMeyer">
+        <a class="link4" href="https://www.youtube.com/@LawtonMeyer" target="_blank" title="YouTube &#64;LawtonMeyer">
             <img class="socialHover" src="src/icons/YouTube.png" alt="www.youtube.com/@LawtonMeyer" >
         </a>
       </div>
 
       <div class="socialProps">
-        <a class="link4" href="https://vimeo.com/264872148" title="Vimeo &#64; Lawton Meyer">
-            <img class="socialHover" src="" alt="vimeo.com/264872148">
+        <a class="link4" href="https://vimeo.com/264872148" target="_blank" title="Vimeo &#64; Lawton Meyer">
+            <img class="socialHover" src="src/icons/Vimeo.png" alt="vimeo.com/264872148">
         </a>
       </div>
 
       <div class="socialProps">
-        <a class="link4" href="mailto:lawtonmeyer@gmail.com" title="Email &#64; lawtonmeyer@gmail.com">
+        <a class="link4" href="mailto:lawtonmeyer@gmail.com" target="_blank" title="Email &#64; lawtonmeyer@gmail.com">
             <img class="socialHover" src="src/icons/Email.png" alt="Email: lawtonmeyer@gmail.com">
         </a>
       </div>
