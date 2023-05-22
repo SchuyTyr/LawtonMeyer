@@ -25,7 +25,7 @@ template.innerHTML = `
       </div>
 
       <div class="socialProps">
-        <a class="link4" href="https://vimeo.com/264872148" target="_blank" title="Vimeo &#64; Lawton Meyer">
+        <a class="link4" href="https://vimeo.com/user6921025" target="_blank" title="Vimeo &#64; Lawton Meyer">
             <img class="socialHover" src="src/icons/Vimeo.png" alt="vimeo.com/264872148">
         </a>
       </div>
