@@ -52,7 +52,8 @@ template.innerHTML = `
     | <a class="link1" href="tel:8452496161" title="Phone &#64; (845) 249-6161">(845)&nbsp;249&ndash;6161</a>
     <br>
     <a class="link1" href="https://www.schuylermeyer.com/" target="_self" title="SchuyTyr">Powered by SchuyTyr</a>
-    &nbsp;
+    &nbsp;|&nbsp;
+    <a class="link1" href="readme.html" target="_self" title="README">README</a>
   </p>
 `;
 
