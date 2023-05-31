@@ -23,6 +23,12 @@ template.innerHTML = `
             <img class="socialHover" src="src/icons/YouTube.png" alt="www.youtube.com/@LawtonMeyer" >
         </a>
       </div>
+      
+      <div class="socialProps">
+        <a class="link4" href="https://www.imdb.com/name/nm7786207/" target="_blank" title="IMDb &#64;LawtonMeyer">
+            <img class="socialHover" src="src/icons/IMDb-2.png" alt="www.imdb.com/name/nm7786207/" >
+        </a>
+      </div>
 
       <div class="socialProps">
         <a class="link4" href="https://vimeo.com/user6921025" target="_blank" title="Vimeo &#64; Lawton Meyer">
