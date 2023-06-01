@@ -25,7 +25,7 @@ template.innerHTML = `
       </div>
       
       <div class="socialProps">
-        <a class="link4" href="https://www.imdb.com/name/nm7786207/" target="_blank" title="IMDb &#64;LawtonMeyer">
+        <a class="link4" href="https://www.imdb.com/name/nm7786207/" target="_blank" title="IMDb &#64; Lawton Meyer">
             <img class="socialHover" src="src/icons/IMDb-2.png" alt="www.imdb.com/name/nm7786207/" >
         </a>
       </div>
