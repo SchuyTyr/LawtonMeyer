@@ -14,7 +14,8 @@ window.onscroll = function() {
 function scrollFunction() {
   if (document.body.scrollTop > 225 || document.documentElement.scrollTop > 225) {
     if (!topBtn){
-      mybutton.style.display = "block";
+        mybutton.style.display = "block";
+        mybutton.title = "To Top";
     }
   } else {
     if (!topBtn){
