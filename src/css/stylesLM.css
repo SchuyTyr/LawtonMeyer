@@ -1,4 +1,6 @@
-﻿html {
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
+
+html {
     overflow-y: scroll;
     overflow-x: hidden; /*messes up the noscroll modals*/
     scroll-behavior: smooth;
