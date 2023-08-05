@@ -1,37 +1,52 @@
 /*-- slideShow.js // Schuyler Meyer // 2021 --*/
 
 var myIndex = 0;
+
+var timer;
+
 //var slideCnt = 0;
-carousel();
+//carousel(1);
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  //var sc = document.getElementById("slideCounter");
-  //var slideTotal = 0;
+function carousel(inc = 1) {
+    var i;
+    var x = document.getElementsByClassName("slides");
 
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
+    //clear/stop the timer
+    clearTimeout(timer);
 
-  //slideTotal = x.length;
+    //var sc = document.getElementById("slideCounter");
+    //var slideTotal = 0;
 
-  myIndex++;
-  //slideCnt++;
-
-  if (myIndex > x.length) {
-    myIndex = 1;
-    //slideCnt = 1;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
     }
 
-  //sc.innerHTML = "&mdash;&nbsp;"+ slideCnt +"&nbsp;/&nbsp;"+ slideTotal +"&nbsp;&mdash;";
+    //slideTotal = x.length;
 
-  x[myIndex-1].style.display = "block";
-  //setTimeout(carousel, 6000); // Change image every 6 seconds
-  //setInterval(carousel, 6000); // Change image every 6 seconds
+    myIndex += inc;
+    //slideCnt++;
+
+    if (myIndex > x.length) {
+        myIndex = 1;
+        //slideCnt = 1;
+    }
+
+    if (myIndex <= 0) {
+        myIndex = x.length;
+    }
+
+    //sc.innerHTML = "&mdash;&nbsp;"+ slideCnt +"&nbsp;/&nbsp;"+ slideTotal +"&nbsp;&mdash;";
+
+    x[myIndex - 1].style.display = "block";
+    //console.log("index: " + myIndex);
+    //setTimeout(carousel, 6000); // Change image every 6 seconds
+    //setInterval(carousel, 6000); // Change image every 6 seconds
+
+    timer = setInterval(carousel, 6000);
 
 }
 
-function startTimer() {
-  setInterval(carousel, 6000);
-}
+//function startTimer() {
+//    //setInterval(carousel, 6000);
+//    timer = setInterval(carousel, 2000);
+//}

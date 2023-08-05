@@ -39,7 +39,7 @@
     <script src="src/js/footer.js" type="text/javascript" defer></script>
 </head>
 
-<body onload="startTimer()">
+<body onload="carousel(1)">
 
     <button id="toTopButton" onclick="topFunction()" title="To Top"></button>
 
@@ -48,7 +48,7 @@
     <main>
 
         <section>
-            <div class="video-container">
+            <div class="main-video-container">
                 <iframe src="https://www.youtube-nocookie.com/embed/NMYaPRjexfk?rel=0&modestbranding=1" title="Lawton Meyer | Cinematography Reel 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
@@ -58,20 +58,27 @@
         <br>
 
         <section class="photoContainer">
-            <div class="photoContIn">
-                <img class="slides img3" src="src/img/stills/homepage/photo_1.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_2.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_3.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_4.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_5.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_6.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_7.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_8.jpg">
-                <img class="slides img3" src="src/img/stills/homepage/photo_9.jpg">
+
+            <div class="arrowContainer">
+                <button onclick="carousel(-1);">&lt;</button>
+
+                <div class="photoContIn">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_1.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_2.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_3.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_4.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_5.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_6.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_7.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_8.jpg">
+                    <img class="slides img3" src="src/img/stills/homepage/photo_9.jpg">
+                </div>
+
+                <button onclick="carousel(1);">&gt;</button>
             </div>
 
             <p class="mainSubText">
-                See more in the <a class="link1" href="gallery.html">gallery</a>
+                <a class="link1" href="gallery.html">See more in the <span style="text-decoration: underline;">gallery</span></a>
             </p>
         </section>
 
