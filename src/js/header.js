@@ -16,9 +16,9 @@ mainHeader.innerHTML = `
 
             <a href="index.html" class="">&nbsp;Home&nbsp;</a>
             <div class="dropdown">
-                <button class="dropbtn">
+                <a class="dropbtn" href="work.html">
                     &nbsp;Work&nbsp;
-                </button>
+                </a>
                 <div class="dropdown-content">
                     <a href="music.html">Music&nbsp;Video</a>
                     <a href="narrative.html">Narrative</a>
