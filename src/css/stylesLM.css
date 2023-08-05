@@ -337,6 +337,35 @@ nav a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(215,215,215);
 }
 
+/*--------------------------- Work Page ---------------------------*/
+.workLink {
+    text-decoration: none;
+    color: #d7d7d7;
+}
+
+.workLink .workTitle {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(255,255,255,0%);
+}
+
+.workLink:visited {
+    color: #d7d7d7;
+}
+
+.workLink:hover {
+    /*text-decoration: underline;*/
+    color: #ffffff;
+}
+
+.workLink:hover .workTitle {
+    border-bottom: 2px solid rgba(255,255,255,90%);
+}
+
+.workLink:active {
+    color: #d7d7d7;
+}
+
+/*--------------------------- End Work Page ---------------------------*/
 /*--------------------------- Gear List Page ---------------------------*/
 .pageTitle {
     text-align: center;
@@ -546,7 +575,19 @@ nav a:hover, .dropdown:hover .dropbtn {
     }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1701px) {
+    .video-container {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .video-container {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1351px) {
     .aboutHeaderIMG {
         width: 60%;
     }
@@ -558,6 +599,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 @media screen and (max-width: 1350px) {
     .containerGrid img {
         height: 250px;
+    }
+    .video-container {
+        width: 500px;
     }
 }
 
@@ -578,6 +622,12 @@ nav a:hover, .dropdown:hover .dropbtn {
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .video-container {
+        width: 400px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     h1 {
         font-size: 42px;
@@ -585,8 +635,6 @@ nav a:hover, .dropdown:hover .dropbtn {
 
     .video-container {
         width: 600px;
-        /*height: 450px;*/
-        /*aspect-ratio: 7 / 4;*/
     }
 
     .photoContainer {
@@ -661,7 +709,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     }
 
     .video-container {
-        width: 100%;
+        width: 500px;
     }
 
     .photoContainer {
@@ -786,6 +834,9 @@ nav a:hover, .dropdown:hover .dropbtn {
         margin-top: 4px;
         margin-bottom: 4px;
         padding: 8px;
+    }
+    .video-container {
+        width: 300px;
     }
 }
 
