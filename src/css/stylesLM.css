@@ -1,4 +1,12 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Rye&display=swap');
+
+
+
+:root {
+    --main_blueGreen_color: rgba(1,71,82,1);
+    --main_blueGreen_color-faded: rgba(1,71,82,0.7);
+    --main_blueGreen_color-faded2: rgba(1,71,82,0.3);
+}
 
 html {
     overflow-y: scroll;
@@ -17,6 +25,12 @@ body {
     font-family: 'Lato', sans-serif;
     color: #d7d7d7;
     -webkit-appearance: none;
+}
+
+.noscroll {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
 main {
@@ -547,9 +561,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 #photoText, .photoTextDescr, #photoTextCapt {
     color: #d7d7d7;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -578,14 +592,15 @@ nav a:hover, .dropdown:hover .dropbtn {
     margin-right: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
-    padding: 12px;
+    /*padding: 12px;*/
 }
 
 .containerGrid img:hover {
     /*cursor: pointer;*/
     color: rgba(1,71,82,1);
-    border: 10px rgba(1,71,82,1);
-    box-shadow: 0 0 1px 4px #000000, 0 0 25px 15px rgba(1,71,82,1);
+    /*border: 10px rgba(1,71,82,1);*/
+    /*box-shadow: 0 0 1px 4px #000000, 0 0 25px 15px rgba(1,71,82,1);*/
+    box-shadow: 0 0 10px 10px rgba(1,71,82,0.3);
     -webkit-appearance: none;
 }
 
@@ -600,6 +615,78 @@ nav a:hover, .dropdown:hover .dropbtn {
 .fadeIn {
     opacity: 1;
 }
+
+/* The Modal (background) */
+.photosModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.95); /* Black w/ opacity */
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.modalPhoto {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    vertical-align: middle;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalPhotoContent {
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5px;
+    max-width: 90%;
+    max-height: 80%;
+    box-shadow: 0 0 40px 30px rgba(1,71,82,0.3);
+    -webkit-box-shadow: 0 0 40px 30px rgba(1,71,82,0.3);
+    -webkit-appearance: none;
+}
+
+#closeButton {
+    display: block;
+    cursor: pointer;
+    font-size: 96px;
+    line-height: 1;
+    color: var(--main_blueGreen_color-faded);
+    transition: 0.3s all ease-in-out;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rye', cursive;
+    text-decoration: none;
+    border: 0;
+    background-color: rgba(0,0,0,0%);
+    -webkit-appearance: none;
+}
+
+    #closeButton:hover,
+    #closeButton:active {
+        color: var(--main_blueGreen_color);
+        transform: scale(1.2);
+        transform-origin: center;
+    }
 
 /*--------------------------- End Gallery Page ---------------------------*/
 
@@ -878,6 +965,11 @@ nav a:hover, .dropdown:hover .dropbtn {
         width: 75%;
         padding-top: 10%;
     }
+    .modalPhotoContent {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -webkit-appearance: none;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -904,9 +996,13 @@ nav a:hover, .dropdown:hover .dropbtn {
         width: 90%;
         margin-left: 4px;
         margin-right: 4px;
-        margin-top: 4px;
+        margin-top: 12px;
         margin-bottom: 4px;
-        padding: 8px;
+        /*padding: 8px;*/
+    }
+    .modalPhotoContent {
+        max-width: 100%;
+        margin: 0 auto;
     }
     .video-container, .imgWorkContainer {
         width: 300px;

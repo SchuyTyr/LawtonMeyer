@@ -37,7 +37,7 @@
     <script src="src/js/header.js" type="text/javascript" defer></script>
     <script src="src/js/footer.js" type="text/javascript" defer></script>
 </head>
-<body>
+<body id='fullBody'>
     <header id="header"></header>
 
     <main>
@@ -48,7 +48,7 @@
 
             <div class="pageTitle">Stills Gallery</div>
 
-            <!--<div class="photoTextDescr">Click on an image to enlarge it.</div>-->
+            <div class="photoTextDescr"><i>All frames lit, composed, and colored by Lawton Meyer</i></div>
 
             <div class="containerGrid">
                 <img class="img4 fadeScroll fadeOut" src="src/img/stills/gallery/photo_01.jpg" title="">
@@ -132,16 +132,15 @@
             </div>
         </div>
 
-        <!--
-    <div id="myModal" class="modal" title="Click to Close">
-        <div class="modalPhoto">
-            <div id="photoText">Click the "x" or anywhere outside the image to close.</div>
-            <img class="modalPhotoContent" id="img01" title="">
-            <div id="photoTextCapt"></div>
-            <input type="button" id="closeButton" value="&times;" title="Close">
+        <!--<div id="myModal" class="modal" title="Click to Close">-->
+        <div id="photoModal" class="photosModal" title="Click the 'X' close">
+            <div class="modalPhoto">
+                <!--<div id="photoText">Click the "x" or anywhere outside the image to close.</div>-->
+                <img class="modalPhotoContent" id="img01">
+                <!--<div id="photoTextCapt"></div>-->
+                <input type="button" id="closeButton" value="&times;" title="Close">
+            </div>
         </div>
-    </div>
-    -->
 
     </main>
 
@@ -149,7 +148,9 @@
     <footer id="footer"></footer>
 
     <script src="src/js/scrollToTop.js"></script>
+    <script src="src/js/photoScript.js"></script>
     <script src="src/js/fadeScroll.js"></script>
+
 
 </body>
 </html>
