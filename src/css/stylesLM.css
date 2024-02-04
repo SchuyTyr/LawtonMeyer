@@ -467,6 +467,13 @@ nav a:hover, .dropdown:hover .dropbtn {
     margin-right: auto; 
 }
 
+.aboutHeader {
+    font-size: 22px;
+}
+.aboutHeader span {
+    border-bottom: solid 1px white;
+}
+
 .aboutImg {
     width: 60%;
 }
@@ -476,7 +483,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/stills/homepage/photo_7.jpg);
+    background-image: url(../img/TwitterCard.jpg);
     /*background-size: contain;*/
     background-size: cover;
     background-repeat: no-repeat;
