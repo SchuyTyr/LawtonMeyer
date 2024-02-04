@@ -605,6 +605,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 .containerGrid img:hover {
     /*cursor: pointer;*/
     color: rgba(1,71,82,1);
+    cursor: pointer;
     /*border: 10px rgba(1,71,82,1);*/
     /*box-shadow: 0 0 1px 4px #000000, 0 0 25px 15px rgba(1,71,82,1);*/
     box-shadow: 0 0 10px 10px rgba(1,71,82,0.3);
