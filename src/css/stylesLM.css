@@ -201,6 +201,18 @@ nav a:hover, .dropdown:hover .dropbtn {
     bottom: 0;
     float: right;
     cursor: pointer;
+    padding: 0;
+}
+#muteButtonIcon {
+    /*background: #000000;*/
+    background: rgba(0,0,0,0.2);
+    background-image: url(../icons/SpeakerMute.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2f2f2f;
+    box-shadow: 0px 0px 8px 1px rgba(255,255,255,0.2);
 }
 
 .main-video-container iframe, .video-container iframe {
@@ -971,7 +983,11 @@ nav a:hover, .dropdown:hover .dropbtn {
     .main-video-container {
         width: 450px;
     }
-
+    #muteButtonIcon {
+        width: 25px;
+        height: 25px;
+        margin-right: 4px;
+    }
     nav a {
         padding: 10px 12px;
     }
