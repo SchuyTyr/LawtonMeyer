@@ -1,0 +1,22 @@
+/*-- unMuteVid.js // Schuyler Meyer // 2024 --*/
+
+const vid = document.getElementById('mainVideo');
+const muteButtonIcon = document.getElementById('muteButtonIcon');
+const muteButton = document.getElementById('muteButton');
+
+let onOff = true;
+
+function unMute() {
+    if (onOff) {
+        muteButtonIcon.innerHTML = '&#x1F50A';
+        vid.muted = !vid.muted;
+        muteButton.title = "To Mute";
+        onOff = false;
+    }
+    else {
+        muteButtonIcon.innerHTML = '&#x1F508';
+        vid.muted = !vid.muted;
+        muteButton.title = "To Unmute";
+        onOff = true;
+    }
+}

@@ -39,23 +39,37 @@
     <script src="src/js/footer.js" type="text/javascript" defer></script>
 </head>
 
-<body onload="carousel(1)">
+<!--<body onload="carousel(1)">-->
+<body>
 
     <button id="toTopButton" onclick="topFunction()" title="To Top"></button>
 
     <header id="header"></header>
 
-    <main>
+    <main id="mainIndex">
 
-        <section>
+        <!--<section>
             <div class="main-video-container">
                 <iframe src="https://www.youtube-nocookie.com/embed/NMYaPRjexfk?rel=0&modestbranding=1" title="Lawton Meyer | Cinematography Reel 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
+        </section>-->
+
+        <section>
+            <div class="main-videoF-container">
+                <video id="mainVideo" 
+                       preload="auto" autoplay loop muted 
+                       poster="src/img/TwitterCard.jpg">
+                    <source src="src/video/LM_Reel_2022.mp4" type="video/mp4" />
+                </video>
+                <div id="muteButton" title="To Unmute">
+                    <button style="cursor: pointer;" onclick="unMute();" id="muteButtonIcon">&#x1F508;</button>
+                </div>
+            </div>
         </section>
 
-        <br>
-        <br>
+
+        <!--<br><br>-->
 
         <!--<section class="photoContainer">
 
@@ -90,8 +104,9 @@
 
     <!--<script src="src/js/hideText.js"></script>-->
     <script src="src/js/scrollToTop.js"></script>
+    <script src="src/js/unMuteVid.js"></script>
     <!--<script src="src/js/fadeScroll.js"></script>-->
-    <script src="src/js/slideShow.js"></script>
+    <!--<script src="src/js/slideShow.js"></script>-->
 
 </body>
     </html>

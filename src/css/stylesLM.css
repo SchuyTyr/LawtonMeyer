@@ -39,6 +39,10 @@ main {
     margin-bottom: 42px;
 }
 
+#mainIndex {
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -177,6 +181,26 @@ nav a:hover, .dropdown:hover .dropbtn {
     aspect-ratio: 16 / 9;
     overflow: hidden;
     margin: auto;
+}
+.main-videoF-container {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin: auto;
+}
+#mainVideo {
+    width: 100%;
+    /*height: 100%;*/
+    z-index: -1;
+}
+#muteButton {
+    z-index: 10;
+    font-size: 32px;
+    position: sticky;
+    bottom: 0;
+    float: right;
+    cursor: pointer;
 }
 
 .main-video-container iframe, .video-container iframe {
