@@ -484,6 +484,10 @@ nav a:hover, .dropdown:hover .dropbtn {
     line-height: 1.6;
 }
 
+/*.gearList a {
+    text-decoration: none;
+}*/
+
 /*--------------------------- End Gear List Page ---------------------------*/
 
 /*--------------------------- About Page ---------------------------*/
@@ -562,7 +566,59 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 /*--------------------------- End Contact Page ---------------------------*/
+/*--------------------------- 404 ---------------------------*/
 
+.FOFHeader {
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 4px ridge #969696;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FOFSubHeader {
+    text-align: center;
+    font-size: 24px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FOFSubHeader span {
+    border-bottom: 1px solid #ffffff;
+}
+.FOFInfo {
+    font-size: 22px;
+    color: #d7d7d7;
+}
+    .FOFInfo a {
+        color: #d7d7d7;
+        text-decoration: none;
+        border-bottom: solid 1px #00c1df;
+    }
+        .FOFInfo a:visited {
+            color: #d7d7d7;
+        }
+        .FOFInfo a:hover {
+            color: #00c1df;
+        }
+        .FOFInfo a:active {
+            color: #ffffff;
+            border-bottom: solid 1px #ffffff;
+        }
+.FOFList {
+    text-align: left;
+    font-size: 20px;
+    line-height: 2;
+}
+.FOFImg {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+
+/*--------------------------- End 404 Page ---------------------------*/
 /*--------------------------- Work Page(s) ---------------------------*/
 
 .workContainer {

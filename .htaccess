@@ -1,0 +1,16 @@
+AuthName "Lawton Meyer"
+
+AddDefaultCharset UTF-8
+
+DefaultLanguage en-US
+
+ErrorDocument 404 /404.html
+
+AcceptPathInfo On
+
+Access-Control-Allow-Origin: https://www.lawtonmeyer.com/
+
+# RewriteEngine on
+
+# RewriteCond %{REQUEST_FILENAME}.html -f
+# RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
