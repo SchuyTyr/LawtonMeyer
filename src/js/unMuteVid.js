@@ -9,14 +9,14 @@ let onOff = true;
 function unMute() {
     if (onOff) {
         //muteButtonIcon.innerHTML = '&#x1F50A';
-        muteButtonIcon.style.backgroundImage = "url(../icons/SpeakerSound.png)";
+        muteButtonIcon.style.backgroundImage = "url(src/icons/SpeakerSound.png)";
         vid.muted = !vid.muted;
         muteButton.title = "To Mute";
         onOff = false;
     }
     else {
         //muteButtonIcon.innerHTML = '&#x1F508';
-        muteButtonIcon.style.backgroundImage = "url(../icons/SpeakerMute.png)";
+        muteButtonIcon.style.backgroundImage = "url(src/icons/SpeakerMute.png)";
         vid.muted = !vid.muted;
         muteButton.title = "To Unmute";
         onOff = true;
